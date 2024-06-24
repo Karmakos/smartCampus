@@ -1,13 +1,15 @@
 {
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "nodemon": "^3.1.3"
+    "nodemon": "^3.1.3",
+    "path": "^0.12.7"
   },
   "name": "smartcampus",
   "version": "1.0.0",
   "description": "A web application that hosts past exam papers, helps you answers and offers career guides for highschool students.",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
