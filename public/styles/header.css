@@ -1,3 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1{
     color: blue;
+}
+.logo{
+    max-width: 8rem;
+}
+.nav{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-bar{
+    padding: 0;
+}
+.nav-menu{
+    color: black;
+    text-decoration: none;
+
+}
+.nav-menu:hover{
+    color: blue;
+    transform: scale(1);
+    text-decoration: underline solid transparent;
+    transition: text-decoration 3s ease;
+}
+.nav-menu:active{
+    text-decoration: underline solid;
+    color: #008DDA;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.btn-primary{
+    background-color: #008DDA;
+    border: none;
+}
+.btn-outline-primary{
+    border: #008DDA solid 2px;
+    color: black;
 }
