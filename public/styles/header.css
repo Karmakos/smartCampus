@@ -1,8 +1,8 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
-    color: blue;
+header h1{
+    color: #050c9c;
 }
 .logo{
     max-width: 8rem;
@@ -15,29 +15,26 @@ h1{
     padding: 0;
 }
 .nav-menu{
-    color: black;
+    color: #3572EF;
     text-decoration: none;
 
 }
 .nav-menu:hover{
-    color: blue;
+    color: #050c9c;
     transform: scale(1);
     text-decoration: underline solid transparent;
     transition: text-decoration 3s ease;
 }
 .nav-menu:active{
     text-decoration: underline solid;
-    color: #008DDA;
+    color: #3572EF;
 }
-header{
-    position: sticky;
-    top: 0;
-}
+
 .btn-primary{
-    background-color: #008DDA;
+    background-color: #3572EF;
     border: none;
 }
 .btn-outline-primary{
-    border: #008DDA solid 2px;
+    border: #050c9c solid 2px;
     color: black;
 }

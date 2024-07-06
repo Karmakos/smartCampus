@@ -1,5 +1,56 @@
 .top-banner{
-    background-image: url(../images/home-banner.jpg);
-    height: 600px;
-    width: auto;
+    background-image: url(../images/home-banner.png);
+   object-fit: cover;
+    background-repeat: no-repeat;
+}
+.card-icons{
+    max-height: 80px;
+
+}
+.card{
+    border: none;
+    background-color: transparent;
+}
+.col-top-first{
+    padding: 20px 10px;
+}
+.col-top-second{
+    padding: 5px 5px;
+    margin-bottom:20px;
+}
+/* search Bar */
+
+.form{
+
+    position: relative;
+    border: solid 1px grey;
+    border-radius: 10px;
+    margin: 50px 0 30px;
+    
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    right: 20px;
+    color: #9ca3af;
+
+}
+.i-fa{
+    background-color: #3572ef;
+    border: solid 1px grey;
+}
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
 }
