@@ -1,6 +1,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    
+}
+
 header h1{
     color: #050c9c;
 }
@@ -13,6 +17,7 @@ header h1{
 }
 .nav-bar{
     padding: 0;
+    margin: 0;
 }
 .nav-menu{
     color: #3572EF;
