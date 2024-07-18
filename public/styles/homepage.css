@@ -1,6 +1,15 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+a{
+    color: #3572ef;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #050C9C;
+    text-decoration: underline;
+}
 .top-banner{
     background-image: url(../images/home-banner.png);
     object-fit: cover;
@@ -16,6 +25,11 @@ body{
     border: none;
     background-color: transparent;
 }
+.nav-list{
+    display: inline-block;
+    padding: 10px;
+}
+
 .col-top-first{
     padding: 20px 10px;
 }
@@ -85,6 +99,7 @@ max-height: 80vh;
 /* Section 2 Features */
 .section-features-2{
     background-color: #3572ef;
+    padding: 20px 0 50px;
 }
 .section-features-2 .verify-icon{
     color: white;
@@ -107,3 +122,173 @@ max-height: 80vh;
 .section-features-2 button:hover{
     background-color: #050C9C;
 }
+
+/* Footer Section */
+footer li{
+    line-height: 2rem;
+    list-style: none;
+    font-size: 18px;
+}
+
+footer{
+    height: 40vh;
+    padding-top: 5%;
+}
+footer .playstore-icom{
+    display: inline-block;
+    
+}
+footer .playstore-text{
+    display: inline-block;
+}
+
+/* Login Section */
+.welcome-text{
+    padding: 10px 0 20px;
+}
+
+#login{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.85);
+    z-index: 1000;
+    overflow: auto; 
+}
+.signin-form{
+    padding: 5% 5%;
+}
+.sign-row{
+    padding: 10% 10%;
+    height: 100vh;
+}
+.close-icon{
+    position: absolute;
+    
+    font-size: 32px;
+    right: 5%;
+    left: auto;
+    top: 5%;
+    color: white;
+}
+.close-icon:hover{
+    color: white;
+    transform: scale(1.5);
+}
+.sign-in{
+    background-color: white;
+    border-radius: 10px;
+}
+.btn-google{
+    background-color: lightcoral;
+}
+.btn-google:hover{
+    background-color: #DB4437;
+}
+.fa-google{
+    padding-right: 5px;
+}
+.btn-facebook{
+    background-color: #3572ef;
+}
+.btn-facebook:hover{
+    background-color: #050C9C;
+}
+.fa-facebook{
+    padding-right: 10px;
+}
+.detail-input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid black 1px;
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.login-btn{
+    width: 25%;
+    font-size: 16px;
+    background-color: #3572ef;
+}
+.login-btn:hover{
+    background-color: #050C9C;
+}
+.welcome-text{
+    color: white;
+}
+.sign-item{
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+/* Signup Section */
+.signup{
+    height: 100vh;
+}
+.sign-up{
+    padding: 10% 5%;
+}
+.signup-col{
+ background-color: rgb(255, 255, 255);
+ border-radius: 2%;
+}
+
+#signup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.95);
+    z-index: 1000;
+    overflow: auto; 
+}
+.signup-heading{
+    color: black;
+
+}
+
+.signup-features{
+    color: white;
+}
+.signup-icon{
+    color: white;
+    padding: 15px 0;
+
+}
+.signup-text{
+    color: white;
+    font-size: 12px;
+}
+.logo{
+    max-width: 150px;
+}
+.signup-input{
+    width: 100%;
+}
+.terms{
+    font-size: 12px;
+}
+
+@media (max-width: 576px) { 
+    .fa-facebook{
+        display: none;
+    }
+    .fa-google{
+        display: none;
+    }
+    .signup-feature-col{
+        display: none;
+    }
+    
+ }
+ @media (max-width: 768px){
+    .signup-icon{
+        display: none;
+    }
+ }

@@ -10,6 +10,7 @@ const port = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const directory = path.join(__dirname, 'public');
+
 app.use(express.static(directory));
 
 //configuring the view engine
@@ -21,6 +22,10 @@ app.get('/', (req, res) =>
 	{
 		res.render("index");
 		})
+
+
+
+
 
 
 app.listen(port, () =>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="Sign up to our platform to get access to our numerous past papers, notes, and course guides.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/homepage.css">
+    </head>
+    <body class="login">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-evenly sign-row">
+                <div class="col-12 align-items-end">
+                        <button class="btn close-icon" onclick="closeToggle()"><i class="fa fa-close "></i></button>
+                </div>
+                <div class="col-lg-6 col-md-8 text-center">
+                    <h1 class="fs-1 welcome-text">Welcome Back!</h1>
+
+                </div>
+                <div class="col-lg-6 col-md-8 text-center sign-in">
+                   
+                    <h2 class="fs-1 sign-item">Sign in</h2>
+                    <hr/>
+                    <h3 class="fs-4 sign-item">with</h3>
+                    <div class="container text-center">
+                        <div class="row justify-content-evenly">
+                            <div class="col-6">
+                                <button type="button" class="btn btn-secondary btn-google"><i class="fa fa-google" aria-hidden="true"></i> Google</button>
+                            </div>
+                            <div class="col-6">
+                        <button type="button" class="btn btn-secondary btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</button>
+                            </div>
+                        </div>
+                    </div>                 
+                    <p class="fs-6 sign-item">Or</p>
+                    <hr/>
+                    
+                    <form class="text-start signin-form">
+                       
+                            <label for="lname sign-item">Username or Email</label><br>
+                            <input type="text" name="user" placeholder="username" class="detail-input"> 
+                            <div class="row text-start">
+                                <div class="col-4">
+                                    <label for="passwordLabel" class="sign-item">Password</label>
+                                </div>
+                                <div class="col-6">
+                                    <label class="sign-item"> <a href="/forgot-password">Forgot Password?</a>  </label>
+                                </div>
+                            </div>                                  
+                            <input type="password"name="password" placeholder="Password" class="detail-input">
+                            <button type="submit" class="btn btn-primary login-btn ">Login</button>
+                      </form>
+                      <div class="row justify-content-evenly">
+                        <div class="col-10">
+                      <p class="fs-6 "> Don't have an Account?<a href="/signup" alt="sign up"> Sign Up</a> </p>
+                        </div>
+
+                      </div>
+                      
+
+
+
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+       
+
+        <script src="/scripts/functions.js"></script>
+    </body>
+
+</html>
