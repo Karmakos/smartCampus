@@ -11,7 +11,7 @@ a:hover{
     text-decoration: underline;
 }
 .top-banner{
-    background-image: url(../images/home-banner.png);
+    background-image: url(../images/banner.png);
     object-fit: cover;
     background-repeat: no-repeat;
     min-height: fit-content;
@@ -131,8 +131,7 @@ footer li{
 }
 
 footer{
-    height: 40vh;
-    padding-top: 5%;
+    padding: 5% 0 1%;
 }
 footer .playstore-icom{
     display: inline-block;
@@ -162,17 +161,13 @@ footer .playstore-text{
     padding: 5% 5%;
 }
 .sign-row{
-    padding: 10% 10%;
     height: 100vh;
 }
 .close-icon{
-    position: absolute;
-    
+    position: relative;
     font-size: 32px;
-    right: 5%;
-    left: auto;
-    top: 5%;
     color: white;
+    margin: 5% 0;
 }
 .close-icon:hover{
     color: white;
@@ -188,18 +183,14 @@ footer .playstore-text{
 .btn-google:hover{
     background-color: #DB4437;
 }
-.fa-google{
-    padding-right: 5px;
-}
+
 .btn-facebook{
     background-color: #3572ef;
 }
 .btn-facebook:hover{
     background-color: #050C9C;
 }
-.fa-facebook{
-    padding-right: 10px;
-}
+
 .detail-input{
     width: 80%;
     height: 40px;
@@ -229,9 +220,8 @@ footer .playstore-text{
 .signup{
     height: 100vh;
 }
-.sign-up{
-    padding: 10% 5%;
-}
+
+
 .signup-col{
  background-color: rgb(255, 255, 255);
  border-radius: 2%;
@@ -258,7 +248,7 @@ footer .playstore-text{
 }
 .signup-icon{
     color: white;
-    padding: 15px 0;
+    padding: 15px;
 
 }
 .signup-text{

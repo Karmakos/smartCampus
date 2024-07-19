@@ -14,15 +14,16 @@
         <link rel="stylesheet" href="/styles/homepage.css">
     </head>
     <body>
-        <div class="top-banner container-fluid">
+        <div class="container-fluid top-banner">
             <%- include ('partials/header.ejs') %>
-            <section id="login">
-                <%- include('partials/login.ejs') %>
-            </section>
-            <section id="signup">
-                <%- include('partials/signup.ejs') %>
-            </section>
+            
             <div class="container">
+                <section id="login">
+                    <%- include('partials/login.ejs') %>
+                </section>
+                <section id="signup">
+                    <%- include('partials/signup.ejs') %>
+                </section>
                 <div class="row text-center">
                     <div class="col-12 col-top-first">
                         <h1 class="fs-1 fw-bolder">Ace Exams with Free Papers, Answers,<br> Notes, & Career Guides</h1>
@@ -32,23 +33,24 @@
                     </div>
                     <div class="col-12"> 
                         <div class="container">
-
                             <div class="row height d-flex justify-content-center align-items-center">
-                
-                              <div class="col-md-9">
-                
-                                <div class="form">
-                                  
-                                  <input type="text" class="form-control form-input" placeholder="Search Papers, Notes & More...">
-                                  <i class="fa fa-search fa-lg"></i>                               </div>
+                    
+                                <div class="col-md-9">
+                    
+                                    <div class="form">
+                                    
+                                    <input type="text" class="form-control form-input" placeholder="Search Papers, Notes & More...">
+                                    <i class="fa fa-search fa-lg"></i> 
+                                    </div> 
+                                    
+                                </div>
                                 
-                              </div>
-                              
                             </div>
-                            
-                          </div>                    </div>
-                       
-                </div>
+                        </div>
+                     </div>
+                    </div>
+
+                <div class="container"> 
                 <div class="row">
                     <div class="col-6 col-md-3">
                         <div class="card text-center">
@@ -87,6 +89,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
 
 

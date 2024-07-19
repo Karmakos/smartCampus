@@ -1,9 +1,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
+.header{
     
-}
+        
+      }
 
 header h1{
     color: #050c9c;
