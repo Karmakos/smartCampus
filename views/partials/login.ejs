@@ -44,7 +44,10 @@
                         <form class="text-start signin-form">
                         
                                 <label for="lname sign-item">Username or Email</label><br>
-                                <input type="text" name="user" placeholder="username" class="detail-input"> 
+                                <div class="detail-input">
+                                    <i class="fa fa-user-plus form-icons" aria-hidden="true"></i>
+                                  <input type="text" name="user" placeholder="Username"> 
+                                </div>
                                 <div class="row text-start">
                                     <div class="col-4">
                                         <label for="passwordLabel" class="sign-item">Password</label>
@@ -52,8 +55,11 @@
                                     <div class="col-6">
                                         <label class="sign-item"> <a href="/forgot-password">Forgot Password?</a>  </label>
                                     </div>
-                                </div>                                  
-                                <input type="password"name="password" placeholder="Password" class="detail-input">
+                                </div>  
+                                <div class="detail-input">
+                                    <i class="fa fa-lock form-icons" aria-hidden="true"></i>
+                                <input type="password"name="password" placeholder="Password">
+                                </div>                                
                                 <button type="submit" class="btn btn-primary login-btn ">Login</button>
                         </form>
                         <div class="row justify-content-evenly">

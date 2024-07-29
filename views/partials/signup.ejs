@@ -48,10 +48,10 @@
                                     <h2 class="fs-3 signup-heading">Register</h2>
                                     <h3 class="fs-6">With</h3>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <button type="button" class="btn btn-secondary btn-google "><i class="fa fa-google signup-icon" aria-hidden="true"></i> Google</button>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-sm-6">
                                     <button type="button" class="btn btn-secondary btn-facebook "><i class="fa fa-facebook signup-icon" aria-hidden="true"></i>Facebook</button>
                                 </div>
                                 <div class="col-12">
@@ -60,28 +60,44 @@
                                 </div>
                             </div>
                             <form>
-                                <div class="row justify-content-start">
-                                    <div class="col-6">
+                                <div class="row">
+                                    <div class="col-sm-6">
                                         <label for="fname">First Name</label><br>
-                                        <input type="text" name="fname" placeholder="John" class="detail-input signup-input">
+                                        <div class="detail-input signup-input">
+                                            <i class="fa fa-user-plus form-icons" aria-hidden="true"></i>
+                                           <input type="text" name="fname" placeholder="First" >
+                                        </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <label for="lname">Last Name</label><br>
-                                        <input type="text" name="lname" placeholder="Doe" class="detail-input signup-input">
+                                        <div class="detail-input signup-input">
+                                            <i class="fa fa-user-plus form-icons" aria-hidden="true"></i>
+                                        <input type="text" name="lname" placeholder="Second" >
+                                        </div>
                                     </div>
                                 </div>
                                 <div>
                                     <label for="lname">Username</label><br>
-                                    <input type="text" name="username" placeholder="Kar1mak0s" class="detail-input signup-input">
+                                    <div class="detail-input signup-input">
+                                        <i class="fa fa-user-circle-o form-icons" aria-hidden="true"></i>
+                                    <input type="text" name="username" placeholder="Username" >
+                                    </div>
 
                                 </div>         
                                 <div>
                                 <label for="emailInput">Email address</label>
-                                <input type="email" name="email" placeholder="email@example.com" class="detail-input signup-input">
+                                <div class="detail-input signup-input">
+                                <i class="fa fa-envelope form-icons" aria-hidden="true" ></i>
+                                <input type="email" name="email" placeholder="email@example.com">
+                                </div>
                                 </div>
                                 <div>
                                 <label for="passwordLabel">Password</label>
-                                <input type="password"name="password" placeholder="Password" class="detail-input signup-input">
+                                <div class="detail-input signup-input">
+                                <i class="fa fa-unlock-alt form-icons" aria-hidden="true"></i>
+                                <input type="password"name="password" placeholder="Password" >
+
+                                </div>
                                 </div>
                             
                             <button type="submit" class="btn btn-primary">Sign Up Now</button>

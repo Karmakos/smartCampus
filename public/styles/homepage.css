@@ -11,7 +11,7 @@ a:hover{
     text-decoration: underline;
 }
 .top-banner{
-    background-image: url(../images/banner.png);
+    background-image: url(/images/banner.png);
     object-fit: cover;
     background-repeat: no-repeat;
     min-height: fit-content;
@@ -182,6 +182,7 @@ footer .playstore-text{
 }
 .btn-google:hover{
     background-color: #DB4437;
+    
 }
 
 .btn-facebook{
@@ -189,6 +190,22 @@ footer .playstore-text{
 }
 .btn-facebook:hover{
     background-color: #050C9C;
+}
+form input{
+    border: none;
+    background: transparent;
+    display: inline;
+    width: 70%;
+}
+input textarea{
+    display: inline-block;
+    background: transparent;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 .detail-input{
@@ -265,6 +282,69 @@ footer .playstore-text{
     font-size: 12px;
 }
 
+/* About Us Section */
+.about-top-row{
+   height: 100vh;
+}
+.about-desc{
+    padding: 2% 20% 0;
+}
+.team-image{
+    margin-top: -30%;
+
+}
+.flip-card-row{
+    height: 60vh;
+    padding: 5% 1%;
+}
+ 
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    padding: 5% 0;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: transparent;
+    color: black;
+    padding: 5% 0;
+    border: solid 1px grey;
+    border-radius: 5%;
+    height: 50vh;
+
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #3572ef;
+    border-radius: 5%;
+    color: white;
+    padding: 5% 0;
+    transform: rotateY(180deg);
+    height: fit-content;
+  }
+  .card-text{
+    font-size: 14px;
+    font-weight: 400;
+  }
 @media (max-width: 576px) { 
     .fa-facebook{
         display: none;
@@ -275,10 +355,30 @@ footer .playstore-text{
     .signup-feature-col{
         display: none;
     }
+    .btn-google{
+        margin: 10px 0;
+    }
+    .btn-facebook{
+        margin: 10px 0;
+    }
+    .team-image{
+        display: none;
+    }
+    .about-desc{
+        padding: 2% 2% 0;
+    }
+    .about-top-row{
+        margin-top: 2%;
+    }
     
  }
  @media (max-width: 768px){
     .signup-icon{
+        display: none;
+    }
+ }
+ @media (max-width: 320px){
+    .form-icons{
         display: none;
     }
  }
