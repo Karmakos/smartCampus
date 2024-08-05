@@ -20,11 +20,11 @@ app.set('views', path.join(__dirname, 'views'));
 //Routes for Handlers
 app.get('/', (req, res) =>
 	{
-		res.render("index");
+		res.render('pages/public/home');
 	});
 app.get('/about-us', (req, res) =>
 {
-	res.render("about-us");
+	res.render("pages/public/about-us");
 
 });
 

@@ -1,0 +1,125 @@
+body{
+    font-family: "Work Sans", sans-serif;
+}
+a{
+    color: #3572ef;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #050C9C;
+    text-decoration: underline;
+}
+.top-banner{
+    background-image: url(/images/banner.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+    position: relative;
+}
+.card-icons{
+    max-height: 80px;
+
+}
+.card{
+    border: none;
+    background-color: transparent;
+}
+.nav-list{
+    display: inline-block;
+    padding: 10px;
+}
+
+.col-top-first{
+    padding: 20px 10px;
+}
+.col-top-second{
+    padding: 5px 5px;
+    margin-bottom:20px;
+}
+/* search Bar */
+
+.form{
+
+    position: relative;
+    border: solid 1px grey;
+    border-radius: 10px;
+    margin: 50px 0 30px;
+    
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    right: 20px;
+    color: #9ca3af;
+
+}
+.i-fa{
+    background-color: #3572ef;
+    border: solid 1px grey;
+}
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+
+/* Features Section */
+
+/* Footer Section */
+
+
+/* Login Section */
+
+/* Signup Section */
+
+
+/* About Us Section */
+
+@media (max-width: 576px) { 
+    .fa-facebook{
+        display: none;
+    }
+    .fa-google{
+        display: none;
+    }
+    .signup-feature-col{
+        display: none;
+    }
+    .btn-google{
+        margin: 10px 0;
+    }
+    .btn-facebook{
+        margin: 10px 0;
+    }
+    .team-image{
+        display: none;
+    }
+    .about-desc{
+        padding: 2% 2% 0;
+    }
+    .about-top-row{
+        margin-top: 2%;
+    }
+    
+ }
+ @media (max-width: 768px){
+    .signup-icon{
+        display: none;
+    }
+ }
+ @media (max-width: 320px){
+    .form-icons{
+        display: none;
+    }
+ }

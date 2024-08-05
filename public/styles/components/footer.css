@@ -1,0 +1,16 @@
+footer li{
+    line-height: 2rem;
+    list-style: none;
+    font-size: 18px;
+}
+
+footer{
+    padding: 5% 0 1%;
+}
+footer .playstore-icom{
+    display: inline-block;
+    
+}
+footer .playstore-text{
+    display: inline-block;
+}

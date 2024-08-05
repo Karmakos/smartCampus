@@ -12,14 +12,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/styles/homepage.css">
+
     </head>
     <body class="login">
         <div class="container-fluid">
             <div class="container">
                 <div class="row align-items-center justify-content-evenly sign-row">
                     <div class="col-12 text-end">
-                            <button class="btn close-icon" onclick="closeToggle()"><i class="fa fa-close "></i></button>
+                            <button class="btn close-icon" onclick="closeToggleLogin()"><i class="fa fa-close "></i></button>
                     </div>
                     <div class="col-lg-6 col-md-8 text-center">
                         <h1 class="fs-1 welcome-text">Welcome Back!</h1>
@@ -41,7 +41,7 @@
                         <p class="fs-6 sign-item">Or</p>
                         <hr/>
                         
-                        <form class="text-start signin-form">
+                        <form class="text-start signin-form" action="login" method="POST">
                         
                                 <label for="lname sign-item">Username or Email</label><br>
                                 <div class="detail-input">
@@ -77,6 +77,6 @@
             </div>
         </div>       
     </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/scripts/functions.js"></script>
+
+
 </html>

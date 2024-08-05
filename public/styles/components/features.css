@@ -1,0 +1,47 @@
+.section-features{
+    padding: 50px 0;
+}
+.features-row{
+    padding: 50px 0 50px;
+
+}
+.feature-img{
+max-height: 80vh;
+}
+
+.features-heading{
+    line-height: 1.5rem;
+    font-family: "work sans", sans-serif;
+    list-style: none;
+    font-weight: bolder;
+
+}
+.verify-icon{
+    color: #3572ef;
+}
+/* Section 2 Features */
+.section-features-2{
+    background-color: #3572ef;
+    padding: 20px 0 50px;
+}
+.section-features-2 .verify-icon{
+    color: white;
+}
+.section-features-2 p{
+    color: white;
+    padding-top: 20px;
+}
+.section-features-2 h2{
+    color: white;
+    padding-top: 20px;
+}
+.section-features-2 hr{
+    color: white;
+    
+}
+.section-features-2 button{
+    background-color: white;
+    }
+.section-features-2 button:hover{
+    background-color: #050C9C;
+}

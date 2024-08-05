@@ -1,0 +1,90 @@
+.welcome-text{
+    padding: 10px 0 20px;
+}
+
+#login{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.85);
+    z-index: 1000;
+    overflow: auto; 
+}
+.signin-form{
+    padding: 5% 5%;
+}
+.sign-row{
+    height: 100vh;
+}
+.close-icon{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    margin: 5% 0;
+}
+.close-icon:hover{
+    color: white;
+    transform: scale(1.5);
+}
+.sign-in{
+    background-color: white;
+    border-radius: 10px;
+}
+.btn-google{
+    background-color: lightcoral;
+}
+.btn-google:hover{
+    background-color: #DB4437;
+    
+}
+
+.btn-facebook{
+    background-color: #3572ef;
+}
+.btn-facebook:hover{
+    background-color: #050C9C;
+}
+form input{
+    border: none;
+    background: transparent;
+    display: inline;
+    width: 70%;
+}
+input textarea{
+    display: inline-block;
+    background: transparent;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.detail-input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid black 1px;
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.login-btn{
+    width: 25%;
+    font-size: 16px;
+    background-color: #3572ef;
+}
+.login-btn:hover{
+    background-color: #050C9C;
+}
+.welcome-text{
+    color: white;
+}
+.sign-item{
+    padding: 10px 0;
+    font-size: 16px;
+}

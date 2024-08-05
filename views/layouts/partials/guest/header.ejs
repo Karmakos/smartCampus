@@ -7,7 +7,7 @@
         <meta name="" content="">
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styles/header.css">
+
     </head>
     <body>
         <header>
@@ -39,15 +39,14 @@
            </div>
            <div>
             <section id="login">
-              <%- include('login.ejs') %>
+              <%- include('../../../auth/login.ejs') %>
           </section>
           <section id="signup">
-              <%- include('signup.ejs') %>
+              <%- include('../../../auth/signup.ejs') %>
           </section>
            </div>
        </header>
-    </body>          
+    </body>
        
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      
+
 </html>

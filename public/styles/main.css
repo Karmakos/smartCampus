@@ -1,0 +1,13 @@
+
+/*importing pages styles */
+@import url('./pages/home.css');
+@import url('./pages/about.css');
+
+/* Importing auth pages */
+@import url('./auth/login.css');
+@import url('./auth/signup.css');
+
+/* Importing components and Layout pages */
+@import url('./components/features.css');
+@import url('./components/footer.css');
+@import url('./components/header.css');
