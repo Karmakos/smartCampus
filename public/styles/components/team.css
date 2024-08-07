@@ -1,0 +1,18 @@
+.team{
+    padding: 5% 0;
+}
+.team .team-icon{
+    border-radius: 100%;
+    height: 200px;
+    width: auto;
+}
+.team .card-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.team .team-social-icons{
+    padding: 5% 0;
+}
+.team .fa:hover{
+    color: #050c9c;
+}

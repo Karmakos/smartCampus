@@ -1,4 +1,3 @@
-
 // Importing auth scripts
 import { toggleLogin, closeToggleLogin } from './auth/login.js';
 import { toggleSignup, closeToggleSignup } from './auth/signup.js';

@@ -27,7 +27,15 @@ app.get('/about-us', (req, res) =>
 	res.render("pages/public/about-us");
 
 });
+app.get('/privacy-policy', (req, res) =>{
+	res.render("pages/public/privacy-policy");
 
+});
+app.get('/tou', (req, res) =>
+{
+	res.render("pages/public/tou");
+
+});
 
 
 

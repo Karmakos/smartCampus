@@ -14,3 +14,6 @@ footer .playstore-icom{
 footer .playstore-text{
     display: inline-block;
 }
+footer .about{
+    padding: 5% 0;
+}

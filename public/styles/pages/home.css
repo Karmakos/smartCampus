@@ -6,6 +6,12 @@ a{
     text-decoration: none;
     
 }
+.home .home-row-1{
+    padding: 10% 0 0;
+}
+.home .home-row-2{
+    padding: 0 0 10%;
+}
 a:hover{
     color: #050C9C;
     text-decoration: underline;
@@ -75,7 +81,6 @@ a:hover{
 }
 
 /* Features Section */
-
 /* Footer Section */
 
 
