@@ -1,19 +1,23 @@
-footer li{
-    line-height: 2rem;
-    list-style: none;
-    font-size: 18px;
-}
-
 footer{
-    padding: 5% 0 1%;
+    background-image: linear-gradient(to right, #5de0e6 , rgb(52,116,236, 0.5));
+    padding: 3% 0 0;
+
 }
-footer .playstore-icom{
-    display: inline-block;
-    
+footer .footer-menu{
+    padding: 2% 0;
 }
-footer .playstore-text{
-    display: inline-block;
+.footer-icon{
+    padding: 0 10px;
 }
-footer .about{
-    padding: 5% 0;
+.icon-youtube{
+    color: red;
+}
+.icon-call{
+    color: blue;
+}
+.icon-email{
+    color: black;
+}
+.icon-instagram{
+    color: blueviolet;
 }

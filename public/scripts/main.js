@@ -1,6 +1,8 @@
 // Importing auth scripts
 import { toggleLogin, closeToggleLogin } from './auth/login.js';
 import { toggleSignup, closeToggleSignup } from './auth/signup.js';
+import { getStarted } from './pages/home.js';
+
 
 // Initialize scripts
 document.addEventListener('DOMContentLoaded', () => {
@@ -13,4 +15,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.closeToggleSignup = closeToggleSignup;
 
   // Page-specific initialization
+  window.getStarted = getStarted;
 });

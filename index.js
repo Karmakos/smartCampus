@@ -36,6 +36,10 @@ app.get('/tou', (req, res) =>
 	res.render("pages/public/tou");
 
 });
+app.get('/donate', (req, res) =>
+{
+	res.render("pages/public/donate.ejs");
+})
 
 
 

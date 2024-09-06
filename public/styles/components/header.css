@@ -1,43 +1,47 @@
-
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+/* Guest Header Styles */
 header h1{
     color: #050c9c;
 }
-.logo{
-    max-width: 8rem;
+header .logo{
+    max-width: 5rem;
 }
-.nav{
+header .nav{
     display: inline-block;
     padding: 10px;
 }
-.nav-bar{
-    padding: 0;
+header .nav-bar{
+    padding: 0 5%;
     margin: 0;
 }
-.nav-menu{
+header .nav-menu{
     color: #3572EF;
     text-decoration: none;
+    
 
 }
-.nav-menu:hover{
+header .nav-menu:hover{
     color: #050c9c;
     transform: scale(1);
     text-decoration: underline solid transparent;
     transition: text-decoration 3s ease;
 }
-.nav-menu:active{
+header .nav-menu:active{
     text-decoration: underline solid;
     color: #3572EF;
 }
 
-.btn-primary{
+header .btn-primary{
     background-color: #3572EF;
     border: none;
 }
-.btn-outline-primary{
+header .btn-outline-primary{
     border: #050c9c solid 2px;
     color: black;
 }
+@media (max-width: 576px) {
+    .for-free{
+        display: none;
+    }
+}
+
+/* User Header Styles */
