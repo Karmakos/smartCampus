@@ -4,6 +4,7 @@
 @import url('./pages/about.css');
 @import url('./pages/privacy-policy.css');
 @import url('./pages/tou.css');
+@import url('./pages/donate.css');
 
 /* Importing auth pages */
 @import url('./auth/login.css');

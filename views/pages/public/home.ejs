@@ -20,35 +20,36 @@
                 
                 <div class="row text-center home-row-1">
                     <div class="col-12 col-top-first">
-                        <h1 class="fs-1 fw-bolder">Ace Exams with Free Papers, Answers,<br> Notes, & Career Guides</h1>
+                        <h1 class="fs-1 fw-bolder">Ace Exams with Free Papers, Answers, <br>Notes, & Career Guides</h1>
                     </div>
                     <div class="col-12 col-top-second">
-                        <h2 class="fs-6">Study easier, Understand faster & Predict Exams</h2>
+                        <h2 class="fs-5">Simplify complex concepts, Study easier, Understand <br>faster & Predict Exams</h2>
                     </div>
                     <div class="col-12"> 
-                        <div class="container">
                             <div class="row height d-flex justify-content-center align-items-center">
                     
-                                <div class="col-md-9">
+                                <div class="col-lg-9 col-md-12">
                     
                                     <div class="form">
+                                    <form action="/search">
+                                        <input type="text" class="form-control form-input" placeholder="Search Papers, Notes & More...">
+                                        <button><i class="fa fa-search fa-lg"></i> </button>
+
+                                    </form>
                                     
-                                    <input type="text" class="form-control form-input" placeholder="Search Papers, Notes & More...">
-                                    <i class="fa fa-search fa-lg"></i> 
                                     </div> 
                                     
                                 </div>
                                 
                             </div>
-                        </div>
                      </div>
                     </div>
 
-                <div class="row home-row-2">
+                <div class="row justify-content-center home-row-2">
                     <div class="col-6 col-md-3">
                         <div class="card text-center">
                            <div class="card-body">
-                                <img  class="card-image-top img-fluid card-icons" src="/images/graduates.png" alt="Graduation hat icon" />
+                                <i class="fa fa-graduation-cap fa-3x card-icons" aria-hidden="true"></i>
                                 <h3 class="card-title fs-5 fw-bold">14,694</h3>
                                 <h4 class="card-text fs-6">Happy Graduates</h4>
                             </div>
@@ -57,7 +58,7 @@
                     <div class="col-6 col-md-3">
                         <div class="card text-center">
                            <div class="card-body">
-                                <img  class="card-image-top img-fluid card-icons" src="/images/documents.png" alt="Document icon" />
+                                <i class="fa fa-file-text fa-3x card-icons" aria-hidden="true"></i>
                                 <h3 class="card-title fs-5 fw-bold">43,834</h3>
                                 <h4 class="card-text fs-6">Helpful Documents</h4>
                             </div>
@@ -66,7 +67,7 @@
                     <div class="col-6 col-md-3">
                         <div class="card text-center">
                            <div class="card-body">
-                                <img  class="card-image-top img-fluid card-icons" src="/images/careers.png" alt="Career book icon" />
+                                <i class="fa fa-briefcase fa-3x card-icons" aria-hidden="true"></i>
                                 <h3 class="card-title fs-5 fw-bold">164</h3>
                                 <h4 class="card-text fs-6">Career Guides</h4>
                             </div>
@@ -75,7 +76,7 @@
                     <div class="col-6 col-md-3">
                         <div class="card text-center">
                            <div class="card-body">
-                                <img  class="card-image-top img-fluid card-icons" src="/images/community.png" alt="People holding hands" />
+                                <i class="fa fa-question-circle fa-3x card-icons" aria-hidden="true"></i>
                                 <h3 class="card-title fs-5 fw-bold">2,124</h3>
                                 <h4 class="card-text fs-6">Community Members</h4>
                             </div>
@@ -85,11 +86,330 @@
             </div>
 
         </div>
-        
-        <%- include ('../../layouts/partials/guest/features.ejs') %>
-        
-    
-        
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row about-row">
+                    <div class="col-md-6">
+                        <img src="/images/anastasia.png" alt="A student holding books" class="img-fluid about-image" />
+
+                    </div>
+                    <div class="col-md-6 about-row-description">
+                        <h2 class="fs-2 title-heading">About us</h2>
+                        <h3 class="fs-5 title-subheading"> What’s the Story Behind Smart Campus</h3>
+                        <p class="fs-6">Smart Campus was established to address the growing need for accessible and organized academic resources in the digital age.</p>
+                        <p class="fs-6">Recognizing that students often struggle to find reliable study materials and collaborate effectively outside the classroom, Smart Campus was created to bridge this gap.</p>
+                        <button type="button" class="fs-5 btn btn-minor">Learn More</button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container features-banner">
+                <div class="row justify-content-end features-top-row">
+                    <div class="col-lg-9">
+                        <div class="row justify-content-between">
+                            <div class="col-6">
+                                <h2 class="fs-3 title-heading">The Best Features</h2>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button type="button" class="btn btn-primary btn-md">All Features</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="row justify-content-between features-row-2">
+                    <div class="col-lg-1">
+                        <img src="/images/phone.png" alt="Phone Icon" class="img-fluid phone-icon"/>
+                    </div>
+                    <div class="col-lg-9 ">
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 features-card-column">
+                                <div class="card features-card">
+                                    <img src="/images/resource-allocation.png" class="card-img-top feature-icon" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Resource Library</h5>
+                                      <p class="card-text">Users can access a vast collection of study materials, including lecture notes, past exam papers, and project reports, all organized by course and subject.</p>
+                                    </div>
+                                  </div>
+
+                            </div>
+                            <div class="col-md-4 features-card-column">
+                                <div class="card features-card">
+                                    <img src="/images/share.png" class="card-img-top feature-icon" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Document Sharing</h5>
+                                      <p class="card-text">Students can effortlessly upload and share their own study materials, contributing to the community and helping others succeed.</p>
+                                    </div>
+                                  </div>
+
+                            </div>
+                            <div class="col-md-4 features-card-column">
+                                <div class="card features-card">
+                                    <img src="/images/category.png" class="card-img-top feature-icon" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Study Feed</h5>
+                                      <p class="card-text">Smart Campus provides a personalized feed based on the user’s courses and interests, ensuring relevant materials are easily accessible.</p>
+                                    </div>
+                                  </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-fluid get-started">
+            <div class="container">
+                <div class="row text-start justify-content-end">
+                    <div class="col-lg-8">
+                        <h2 class="fs-2 title-heading">How to Get Started</h2>
+                        <p class="fs-5 title-subheading">Want to have an overview of how create an account and benefit from the most while using our platform?</p>
+                    </div>
+                </div>
+                <div class="row get-started-row2">
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary  btn-md get-started-btn btn-active" data-target="column1"  onclick="getStarted(this)"> Sign Up</button>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary btn-md get-started-btn" data-target="column2"  onclick="getStarted(this)"> Complete Profile</button>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary btn-md get-started-btn" data-target="column3"  onclick="getStarted(this)"> Upload Papers</button>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary btn-md get-started-btn" data-target="column4"  onclick="getStarted(this)"> Access Papers</button>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary btn-md get-started-btn" data-target="column5"  onclick="getStarted(this)"> Gain Points</button>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-12">
+                            <button type="button" class=" fs-5 btn btn-primary btn-md get-started-btn" data-target="column6"  onclick="getStarted(this)"> Invite Friends</button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row justify-content-end get-started-desc">
+                            <div class="col-11 desc-col col1-active" data-column="column1">
+                                <h2 class="fs-5 title-heading">How to Sign Up</h2>
+                                <p class="fs-6">Click on the sign-up for a free account. 
+                                    You will need to enter your name, email, and password. 
+                                    You can also sign up via google and facebook</p> 
+                                <img src="/images/sign-up.png" alt="Phone sign up image" class="img-fluid phone-img" />                               
+                            </div>
+                            <div class="col-11 desc-col col-disabled" data-column="column2">
+                                <h2 class="fs-5 title-heading">How to Complete Sign Up</h2>
+                                <p class="fs-6">After signing up, check your mail inbox for a verification email and click the link to confirm your account. 
+                                    Once verified, you can complete your profile by adding a few details to personalize your experience. 
+                                    With your account set up, you’re ready to explore the platform—access study materials, connect with peers, and contribute your own resources.</p> 
+                                <img src="/images/complete.png" alt="Phone sign up image" class="img-fluid phone-img" />
+                            </div>
+                            <div class="col-11 desc-col col-disabled" data-column="column3">
+                                <h2 class="fs-5 title-heading">Upload Your First Document</h2>
+                                <p class="fs-6">Getting started is simple! 
+                                   Whether it’s class notes, study guides, or past exams, sharing your resources helps others and builds our community knowledge base. 
+                                   Just head to the <code>Upload</code> section, select your file, add a <code>title</code> and <code>description</code>, and you’re done! 
+                                   Your document will be available to students who need it, and you’ll be contributing to a collaborative learning environment.</p> 
+                                <img src="/images/upload.png" alt="Phone sign up image" class="img-fluid phone-img" />                            
+                            </div>
+                            <div class="col-11 desc-col col-disabled" data-column="column4">
+                                <h2 class="fs-5 title-heading">Access What Others Uploads</h2>
+                                <p class="fs-6">Explore a wealth of resources shared by students just like you. 
+                                    Head to the <code>Documents</code> section to browse uploads from your peers, including class notes, study guides, and exam prep materials. 
+                                    You can <code>search</code> by course, topic, or school to find exactly what you need. 
+                                    With thousands of documents available, you’ll have access to the study resources that can help you excel.</p> 
+                                <img src="/images/search.png" alt="Phone sign up image" class="img-fluid phone-img" />                            
+                            </div>
+                            <div class="col-11 desc-col col-disabled" data-column="column5">
+                                <h2 class="fs-5 title-heading">Gain Redeemable Points</h2>
+                                <p class="fs-6">Earn points as you engage with the community! 
+                                    Every time you upload a document, review a file, or rate someone else’s contribution, you accumulate <code>points.</code> 
+                                    These points are redeemable for rewards such as premium access, discounts, or even gift cards. 
+                                    The more active you are, the more you earn! Your participation not only helps others but also brings you benefits. </p> 
+                                <img src="/images/points.png" alt="Phone sign up image" class="img-fluid phone-img" />
+                            </div>
+                            <div class="col-11 desc-col col-disabled" data-column="column6">
+                                <h2 class="fs-5 title-heading">Invite Friends and Gain Points</h2>
+                                <hp class="fs-6">Spread the word and get rewarded! 
+                                    For every friend you invite who joins our platform, you’ll earn redeemable points. 
+                                    Simply share your unique referral link, and when your friends sign up and start participating, you both benefit. 
+                                    The more friends you invite, the more points you can earn, which can be exchanged for exciting rewards. </p> 
+                                <img src="/images/invite.png" alt="Phone sign up image" class="img-fluid phone-img" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row justify-content-center text-center pricing-section">
+                    <div class="col-md-11 col-lg-9 ">
+                        <h2 class="fs-2 title-heading">Pricing</h2>
+                        <p class="fs-5">At Smart Campus, we believe in providing free access to quality educational resources for everyone. 
+                            That's why we don't charge any fees for using our platform—students can access, share, and collaborate without any financial barriers.</p>
+                        <p class="fs-5">However, to sustain and improve our services, we are open to donations and tips from our community.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-evenly text-start pricing-cards">
+                    <div class="col-8 col-md-5 col-lg-4 col-xl-3 pricing-onetime price-card-design">
+                        <h2 class="fs-3">One-Time Donation</h2>
+                        <p class="fs-6">Become a monthly supporter by setting up a small recurring donation. 
+                            As a thank you, you'll receive early access to new features and exclusive updates on the platform's development. 
+                            Your ongoing support ensures that Smart Campus remains a valuable tool for students everywhere.</p>
+                        <a href="/donate" alt="Donate One Time Button"><button type="button" class=" fs-5 btn btn-primary  btn-md btn-main" > Donate One-Time</button></a> 
+                    </div>
+                    <div class="col-8 col-md-5 col-lg-4 col-xl-3 pricing-monthly price-card-design">
+                        <h2 class="fs-3">Monthly Supporter</h2>
+                        <p class="fs-6">Become a monthly supporter by setting up a small recurring donation. 
+                            As a thank you, you'll receive early access to new features and exclusive updates on the platform's development. 
+                            Your ongoing support ensures that Smart Campus remains a valuable tool for students everywhere.</p>
+                            <a href="/donate" alt="Donate One Time Button"><button type="button" class=" fs-5 btn btn-primary  btn-md btn-minor" > Donate Monthly</button></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="container">
+                <div class="row justify-content-center text-center reviews-row">
+                    <div class="col-lg-8 ">
+                        <h2 class="fs-2 title-heading">What Students Say</h2>
+                        <p class="fs-5">Hear directly from those who have benefited from its comprehensive resources and collaborative features.</p>
+                        <h4 class="fs-4 title-heading">53+ Student Reviews</h4>
+                        <img src="/images/julius.png" alt="Julius Icon" class="img-fluid" />
+                        <img src="/images/mary.png" alt="Mary Icon" class="img-fluid" />
+                        <img src="/images/martin.png" alt="Martin Icon" class="img-fluid" />
+
+                    </div>
+                    <div class="col-lg-8 review-col">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="/images/john.png" alt="John Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">John Kibe</h5>
+                                <h6 class="fs-6 title-subheading">Very comprehensive resources</h6>
+                                <p class="fs-6">he personalized study feed is a game-changer. 
+                                    I get relevant content tailored to my courses, saving me so much time.</p>
+                                <p class="fs-6 title-subheading">1400hrs, 21st February 2024</p>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="/images/Pete.png" alt="Pete Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">Pete Kinuthia</h5>
+                                <h6 class="fs-6 title-subheading">A Game-Changer for My Studies!</h6>
+                                <p class="fs-6">This platform has been a lifesaver for me! 
+                                    The wide range of study materials and notes shared by students from different universities is incredible. 
+                                    I found past exams, lecture notes, and even guides for tricky subjects. The best part is how easy it is to find exactly what I need. Highly recommended for any student looking to boost their academic performance!</p>
+                                <p class="fs-6 title-subheading">0400hrs, 1st March 2024</p>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img src="/images/susan.png" alt="Susan Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">Susan Chepto</h5>
+                                <h6 class="fs-6 title-subheading">Easy to Use and Full of Helpful Content</h6>
+                                <p class="fs-6">I signed up hoping to find a few notes, but I got so much more. 
+                                    There are study guides, summaries, and even discussion boards where you can ask questions and get help. Uploading my own documents was straightforward, and I love that I can earn points for doing so. 
+                                    It’s motivating to know that by helping others, I’m also earning rewards for myself.</p>
+                                    <p class="fs-6 title-subheading">0800hrs, 12th January 2024</p>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="4000">
+                                <img src="/images/mary.png" alt="Mary Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">Mary Wakesho</h5>
+                                <h6 class="fs-6 title-subheading">Perfect for Finding Class Notes and Study Guides</h6>
+                                <p class="fs-6">I was struggling to keep up with some of my classes until I found this site. 
+                                    Now, I can easily access notes and study materials that have been shared by other students. 
+                                    The rating system helps ensure that the best quality content rises to the top, saving me time and effort. 
+                                    It’s like having a whole community of study buddies at your fingertips!</p>
+                                <p class="fs-6 title-subheading">1600hrs, 22nd July 2024</p>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="/images/martin.png" alt="Martin Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">Martin Mwangi</h5>
+                                <h6 class="fs-6 title-subheading">A Must-Have for Every College Student</h6>
+                                <p class="fs-6">Whether you’re looking for past papers, detailed notes, or just tips for your coursework, this site has it all. 
+                                    The ability to upload and share resources with others makes it feel like we’re all in this together. 
+                                    Plus, the points system adds an extra incentive to stay active. 
+                                    I’ve found this platform to be an invaluable tool during my studies.</p>
+                                <p class="fs-6 title-subheading">2200hrs, 21st April 2024</p>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/rachel.png" alt="Rachel Icon" class="img-fluid" />
+                                <h5 class="fs-5 title-heading">Rachel Wambui</h5>
+                                <h6 class="fs-6 title-subheading">Great for Peer Support and Study Materials</h6>
+                                <p class="fs-6">This platform has everything a student needs, from class notes to exam prep resources. 
+                                    I’ve connected with students from my course, and we’ve shared notes and tips that really helped during exam season. 
+                                    The user interface is clean and easy to navigate, making it simple to find and download what I need quickly. 
+                                    A fantastic resource for students!</p>
+                                <p class="fs-6 title-subheading">1200hrs, 2nd April 2024</p>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                       
+                    </div>
+
+                </div>
+                <div class="row justify-content-center align-items-center cta-row">
+                    <div class="col-lg-7 cta-desc-col">
+                        <h2 class="fs-2 title-heading">Study seamlessly with ready notes and Master Exams. Join Us Today!</h2>
+                        <h3 class="fs-6 cta-desc">Unlock your academic potential with instant access to ready-made notes, past exam papers, 
+                            and essential study materials. Master your exams and join a community of learners who make studying seamless. Join us today!</h3>
+                        <div class="row justify-content-center  text-start">
+                            <div class="col-sm-6">
+                                    <h3 class="fs-3 title-heading">Number of Past Papers</h3>
+                                    <h5 class="fs-6">17,812 Papers</h5>
+                            </div>
+                            <div class="col-sm-6">
+                                    <h3 class="fs-3 title-heading">Number of Career Guides</h3>
+                                    <h5 class="fs-6">112 Guides</h5>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center text-start">
+                            <div class="col-6">
+                                <button type="button" class=" fs-5 btn btn-minor" > Contact Us</button>
+
+
+                            </div>
+                            <div class="col-6">
+
+                                <button type="button" class="fs-5 btn btn-main" onclick="toggleSignup()">Sign Up <span class="d-none d-md-inline-block">for Free</span></button>
+
+                            </div>
+
+                        </div>
+                            
+
+
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="/images/phone-signup.png" alt="" class="img-fluid signup-image" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </div>
+  
         <%- include ('../../layouts/partials/guest/footer.ejs') %>
     </body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

@@ -2,7 +2,7 @@ body{
     font-family: "Work Sans", sans-serif;
 }
 a{
-    color: #3572ef;
+    color: #3572ec;
     text-decoration: none;
     
 }
@@ -13,18 +13,19 @@ a{
     padding: 0 0 10%;
 }
 a:hover{
-    color: #050C9C;
+    color: #040C9C;
     text-decoration: underline;
 }
 .top-banner{
-    background-image: url(/images/banner.png);
+    background-image: linear-gradient(to right, #5de0e6 , rgb(52,116,236, 0.5));
     object-fit: cover;
     background-repeat: no-repeat;
     min-height: fit-content;
     position: relative;
 }
 .card-icons{
-    max-height: 80px;
+    margin-bottom: 10px;
+
 
 }
 .card{
@@ -48,7 +49,6 @@ a:hover{
 .form{
 
     position: relative;
-    border: solid 1px grey;
     border-radius: 10px;
     margin: 50px 0 30px;
     
@@ -63,14 +63,14 @@ a:hover{
 
 }
 .i-fa{
-    background-color: #3572ef;
+    background-color: #3572ec;
     border: solid 1px grey;
 }
 .form-input{
 
     height: 55px;
     text-indent: 33px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
 }
 
@@ -79,18 +79,205 @@ a:hover{
     box-shadow: none;
     border:none;
 }
+.home .title-heading{
+    color: #3572ec;
+    font-weight: 700;
+}
+.home .title-subheading{
+    color: #3572ec;
+   font-weight: 400;
+}
+.home .about-row{
+        position: relative;
+        padding: 15% 0 0;
+}
+.home .about-row-description{
+    padding: 5% 0;
+}
+.home .about-image{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    width: 40%;
+}
+.home .btn-main{
+    background-color: #3572ec;
+    color: white;
+    padding: 3% 10%;
+    border-radius: 10px;
+    border: none;
+}
+.home .btn-minor{
+    background-color: white;
+    color: black;
+    padding: 3% 10%;
+    border-radius: 10px;
+    border: 2px solid #3572ec;
+}
+.home .btn-main:hover{
+    background-color:#040c9c ;
+}
+.home .btn-minor:hover{
+    background-color:#040c9c ;
+    border: 2px solid #040C9C;
+    color: white;
+}
+.home .features-banner{
+    background-image: linear-gradient(to right, #5de0e6 , rgb(52,116,236, 0.5));
+}
+.home .features-card-column{
+    padding: 5% 2%;
+}
+.home .features-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.home .phone-icon{
+    position: absolute;
+    height: 20rem;
+    margin-left: -10%;
+    max-height: 100%;
+}
+.home .feature-icon{
+    max-height: 25%;
+    height: auto;
+    width: 80px;
+}
+.home .features-top-row{
+    padding-top: 5%;
+}
+.home .features-row-2{
+    padding: 2% 2%;
+    position: relative;
+}
+.features-banner .card-body{
+    padding: 20px 0;
+}
+.get-started{
+    background-image: linear-gradient(to right, #5de0e6 , rgb(52,116,236, 0.5));
+    margin: 5% 0 0 0;
+    padding: 2% 0;
+}
+.get-started .get-started-row2{
+    padding:2% 0;
+}
+.get-started .get-started-btn{
+    width: 15rem;
+    padding: 4% 2%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+.get-started .get-started-btn:hover{
+    background-color: #3572ec;
+    color: white;
+}
+.get-started .get-started-btn:active{
+    background-color: #040C9C;
+    color: white;
+}
+.get-started .btn-active{
+    background-color: #040C9C;
+    color: white;
+}
+.get-started .get-started-desc{
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px
+}
+.get-started .start-disable{
+    display: none;
+}
 
-/* Features Section */
-/* Footer Section */
+.get-started-desc .desc-col{
+    padding: 10px;
 
+    
+}
+.desc-col .phone-img{
+    height: auto;
+    max-height: 400px;
+    width: auto;
+}
+.get-started-desc .col1-active{
+    display: block;
+}
+.get-started-desc .col-disabled{
+    display: none;
+}
+.pricing-section{
+    padding: 20px 10px;
+}
+.pricing-cards .pricing-onetime{
+    border: solid 2px black;
+    }
+.pricing-cards .pricing-monthly{
+    background-color: #3572ec;
+    color: white;
+ }
+.pricing-cards .price-card-design{
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: 20px 0;
+}
+.pricing-cards .btn-monthly{
+    background-color: white;
+    color: #040c9c;
+}
+.pricing-cards .btn-monthly:hover{
+    background-color: white;
+    }
+.reviews-row{
+    background-image: url("/images/curves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10% 0 5%;
+}
+.reviews-row .review-col{
+    padding: 5% 2%;
+    position: relative;
+}
+.header-reviews-col{
+    position: relative;
+}
 
-/* Login Section */
+ .john-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pete-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .rachel-icon{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.cta-row{
+    padding: 10% 0 0;
+}
 
-/* Signup Section */
-
-
-/* About Us Section */
-
+.cta-row .cta-desc{
+    padding: 5% 0 3%;
+}
+.cta-row .cta-desc-col{
+    padding-bottom: 5%;
+}
+.cta-row .signup-image{
+    max-width: 50%;
+    transform: rotate(20deg);
+    position: relative;
+    margin-bottom: -140px;
+    z-index: -1;
+}
 @media (max-width: 576px) { 
     .fa-facebook{
         display: none;
@@ -120,6 +307,14 @@ a:hover{
  }
  @media (max-width: 768px){
     .signup-icon{
+        display: none;
+    }
+    .home .about-image{
+        position: relative;
+    }
+ }
+ @media (max-width: 992px){
+    .home .phone-icon{
         display: none;
     }
  }
