@@ -40,6 +40,10 @@ app.get('/donate', (req, res) =>
 {
 	res.render("pages/public/donate.ejs");
 })
+app.get('/donate-mpesa', (req, res) =>
+	{
+		res.render("layouts/partials/guest/donate-mpesa.ejs");
+	})
 
 
 
